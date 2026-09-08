@@ -99,9 +99,9 @@
 
         layer_1 {
             bindings = <
-        &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &kp UP    &msc SCRL_RIGHT  &trans
-        &kp LSHFT  &kt LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN  &kp RIGHT        &msc SCRL_UP
-&trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS  &caps_word       &msc SCRL_DOWN  &trans
+        &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &kp K_SCROLL_UP
+        &kp LSHFT  &kt LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
+&trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &trans
                               &trans  &trans  &trans    &trans           &trans          &trans
             >;
         };
