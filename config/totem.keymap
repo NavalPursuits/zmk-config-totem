@@ -108,8 +108,8 @@
 
         Sym {
             bindings = <
-           &kp AT     &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &kp GRAVE      &trans  &trans  &trans  &trans
-           &kp COLON  &kp SEMI   &kp DOUBLE_QUOTES     &kp SQT                &kp EXCL            &kp DOLLAR     &trans  &trans  &trans  &trans
+           &kp DOUBLE_QUOTES     &kp ls(POUND)  &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PIPE            &kp GRAVE      &trans  &trans  &trans  &trans
+           &kp COLON             &kp SEMI   &kp AT                &kp SQT                &kp EXCL            &kp DOLLAR     &trans  &trans  &trans  &trans
 &kp CARET  &kp LBKT   &kp RBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS            &kp LS(GRAVE)  &trans  &trans  &trans  &trans  &trans
                                  &kp LS(STAR)          &kp TILDE              &kp LS(NUMBER_3)    &trans         &trans  &trans
             >;
