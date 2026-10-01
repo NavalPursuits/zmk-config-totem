@@ -86,7 +86,7 @@
             bindings = <
             &kp Q       &kp W       &kp F        &kp P        &kp B        &kp J        &kp L          &kp U        &kp Y       &kp ENTER
             &mt LSHFT A  &mt LCTRL R  &mt LALT S  &mt LGUI T  &kp G        &kp M        &mt RGUI N    &mt RALT E  &mt RCTRL I  &mt RSHFT O
-&kp ESCAPE  &kp Z       &kp X       &kp C        &kp D        &kp V        &kp K        &kp H          &kp COMMA    &kp DOT     &kp FSLH    &kp BSLH
+&kp ESCAPE  &kp Z       &kp X       &kp C        &kp D        &kp V        &kp K        &kp H          &kp COMMA    &kp DOT     &kp FSLH    &none
                                     &kp TAB      &lt 3 SPACE    &lt 1 DEL    &kp ENTER  &lt 2 BACKSPACE  &caps_word
             >;
         };
@@ -99,7 +99,7 @@
 
         Nav {
             bindings = <
-        &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &kp K_SCROLL_UP
+        &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &msc SCRL_UP
         &kp LSHFT  &kp LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
 &trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &trans
                               &trans  &trans  &trans    &trans           &trans          &trans
@@ -108,10 +108,10 @@
 
         Sym {
             bindings = <
-           &kp DQT       &kp POUND     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE           &kp GRAVE      &trans  &trans  &trans  &trans
+           &kp DQT       &kp BSLH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE2           &kp GRAVE      &trans  &trans  &trans  &trans
            &kp COLON    &kp SEMI      &kp AT               &kp SQT                &kp EXCL            &kp DOLLAR     &trans  &trans  &trans  &trans
 &kp CARET  &kp LBKT     &kp RBKT      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS            &kp LS(GRAVE)  &trans  &trans  &trans  &trans  &trans
-                                      &kp LS(STAR)          &kp LS(N3)             &kp PIPE2           &trans         &trans  &trans
+                                      &kp LS(N3)          &kp STAR             &kp TILDE           &trans         &trans  &trans
             >;
         };
 
