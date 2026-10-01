@@ -100,7 +100,7 @@
         Nav {
             bindings = <
         &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &kp K_SCROLL_UP
-        &kp LSHFT  &kt LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
+        &kp LSHFT  &kp LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
 &trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &trans
                               &trans  &trans  &trans    &trans           &trans          &trans
             >;
@@ -108,10 +108,10 @@
 
         Sym {
             bindings = <
-           &kp AT       &kp POUND     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE           &kp GRAVE      &trans  &trans  &trans  &trans
-           &kp COLON    &kp SEMI      &kp DQT               &kp SQT                &kp EXCL            &kp DOLLAR     &trans  &trans  &trans  &trans
+           &kp DQT       &kp POUND     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE           &kp GRAVE      &trans  &trans  &trans  &trans
+           &kp COLON    &kp SEMI      &kp AT               &kp SQT                &kp EXCL            &kp DOLLAR     &trans  &trans  &trans  &trans
 &kp CARET  &kp LBKT     &kp RBKT      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS            &kp LS(GRAVE)  &trans  &trans  &trans  &trans  &trans
-                                      &kp LS(STAR)          &kp LS(N0)             &kp PIPE2           &trans         &trans  &trans
+                                      &kp LS(STAR)          &kp LS(N3)             &kp PIPE2           &trans         &trans  &trans
             >;
         };
 
