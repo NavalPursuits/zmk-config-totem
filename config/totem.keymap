@@ -109,7 +109,7 @@
         Sym {
             bindings = <
            &kp DQT       &kp BSLH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE2           &none      &trans  &trans  &trans  &trans
-           &kp COLON    &kp SEMI      &kp AT               &kp SQT                &kp EXCL            &kp LS(N3)     &DOLLAR  &GRAVE  &NUHS  &trans
+           &kp COLON    &kp SEMI      &kp AT               &kp SQT                &kp EXCL            &kp LS(N3)     &kp DOLLAR  &kp GRAVE  &kp NUHS  &trans
 &kp CARET  &kp LBKT     &kp RBKT      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS            &none  &trans  &trans  &trans  &trans  &trans
                                       &none          &kp STAR             &kp TILDE           &trans         &trans  &trans
             >;
