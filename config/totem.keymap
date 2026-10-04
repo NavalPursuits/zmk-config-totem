@@ -31,10 +31,10 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
-    slk: sticky_layer_key {
+    slm: sticky_layer_key {
         compatible = "zmk,behavior-hold-tap";
        #binding-cells = <2>;
-        bindings = <&mo 6>, <&sl 6>; // Hold: Momentary Layer 1, Tap: Sticky Layer 2
+        bindings = <&mo>, <&sl>; 
         flavor = "tap-preferred";
         tapping-term-ms = <200>;
 };   
@@ -59,7 +59,7 @@
             bindings = <
         &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &msc SCRL_UP
         &kp LSHFT  &kp LCTRL  &kp LS(LCTRL)  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
-&trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &tog 5
+&trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &to 5
                               &trans  &trans  &trans    &trans           &trans          &trans
             >;
         };
@@ -96,7 +96,7 @@
           &kp TAB    &kp Q  &kp W    &kp E      &kp R     &kp T     &kp Y    &kp U   &kp I      &kp O
           &kp LSHFT  &kp A  &kp S    &kp D      &kp F     &kp G     &kp H    &kp J   &kp K      &kp L
 &kp LALT  &kp LCTRL  &kp Z  &kp X    &kp C      &kp V     &kp B     &kp N    &kp M   &kp COMMA  &kp DOT  &kp P
-                            &kp ESC  &kp SPACE  &slk      &kp ENTER  &kp BSPC  &tog 1
+                            &kp ESC  &kp SPACE  &slm 6 6  &kp ENTER  &kp BSPC  &to 1
             >;
         };
 
