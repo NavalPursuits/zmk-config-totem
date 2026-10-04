@@ -69,7 +69,7 @@
         Nav {
             bindings = <
         &trans     &trans     &trans  &trans  &trans    &kp PRINTSCREEN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &msc SCRL_UP
-        &kp LSHFT  &kp LCTRL  &gresc  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
+        &kp LSHFT  &kp LCTRL  &kp LS(LCTRL)  &trans  &trans    &kp PG_UP        &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT
 &trans  &trans     &trans     &trans  &trans  &trans    &kp PG_DN        &kp F2          &kp CAPS        &caps_word       &msc SCRL_DOWN   &trans
                               &trans  &trans  &trans    &trans           &trans          &trans
             >;
