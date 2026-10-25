@@ -1,7 +1,5 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_middle
-  - board: seeeduino_xiao_ble
     shield: totem_left
   - board: seeeduino_xiao_ble
     shield: totem_right
